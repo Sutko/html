@@ -1,0 +1,278 @@
+.table.table-hover.table-striped.sticky-enabled{
+display:none;
+}
+
+ footer{
+	display: none !important;
+	}
+
+.issues-link{
+display: none !important;
+}
+
+.feed-icon{
+	display: none !important;
+}
+
+.region.region-content{
+    margin: 50px;
+
+}
+
+.region.region-content{
+    margin: 0px;
+}
+
+.top-title, #node-6 .field.field-name-body.field-type-text-with-summary{
+	text-align: center;
+    	padding: 15px;
+    	color: #fff;
+    	background: #112347;	
+}
+
+.panel-display.panel-2col-bricks.clearfix {
+    background: #294584;
+}
+
+.download-file{
+width: 350px;
+    display: block;
+    margin: 0 auto;
+}
+
+.download-file a{
+color: #fff;
+}
+
+.field.field-name-field-file-my-book{
+background: #294584;
+    padding: 50px 10px 50px 0px;
+}
+
+.panel-panel.panel-col-last{
+color: #fff;
+}
+
+.pane-simplenews-3 h2{
+display:none;
+}
+
+.simplenews-subscribe .form-item .control-label{
+display:none;
+}
+
+.panel-2col-bricks .panel-col-last{
+    width: 33%;
+}
+
+.views-field.views-field-body{
+font-size: 23px;
+    margin-top: 25px;
+}
+
+.views-field-field-author .field-content{
+font-size: 15px;
+    margin-top: 10px;
+}
+
+.views-field-field-author .field-content::before, .views-field-field-text-three .field-content::before, .views-field-field-text-two .field-content::before{
+content:" ";
+background: url(button_ok_8967.png);
+background-size: 15px;
+width:15px;
+height:15px;
+display: inline-block;
+margin-right: 10px;
+}
+
+.views-field-field-text-three .field-content{
+font-size: 15px;
+    margin-top: 10px;
+}
+
+.views-field-field-text-two .field-content{
+font-size: 15px;
+    margin-top: 10px;
+}
+
+.pane-simplenews-3{
+width: 90%;
+}
+
+.confirmation #edit-submit, .simplenews-subscribe #edit-submit{
+width: 100%;
+    background: #f46b01;
+    color: #fff;
+border: 1px solid #f46b01;
+}
+
+.confirmation #edit-submit.btn.btn-default.form-submit, .simplenews-subscribe #edit-submit{
+font-size:0;
+margin-bottom: 30px;
+}
+
+.row{
+margin-right: 0;
+}
+
+.panel-panel.panel-col-top, .panel-panel.panel-col-first{
+margin-bottom: 30px;
+}
+
+
+.simplenews-subscribe #edit-submit::before {
+    color:#fff;
+font-weight: bold;
+	font-size:14px;
+	z-index:100;
+    content:"YES! SEND ME THE FREE REPORT!";
+}
+
+.confirmation #edit-submit::before {
+    color:#fff;
+font-weight: bold;
+	font-size:14px;
+	z-index:100;
+    content:"DOWNLOAD FREE BOOK";
+}
+
+
+
+.panel-panel.panel-col-first{
+padding-left: 25%;
+}
+
+.panel-panel.panel-col-middle{
+background: #fff;
+    margin-bottom: -5%;
+    padding-top: 2%;
+    text-align: center;
+    padding-bottom: 2%;
+    width: 100%;
+}
+
+.panel-panel.panel-col-middle .pane-content{
+width: 60%;
+    margin: 0 auto;
+    border-bottom: 2px solid #ccc;
+}
+
+.panel-panel.panel-col-bottom{
+background: #fff;
+width: 100%;
+}
+
+.panel-panel.panel-col-bottom .inside{
+    width: 50%;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+}
+
+.one{
+width: 43%;
+    float: left;
+margin: 17px;
+}
+
+.two{
+padding: 15px;
+}
+
+.one img, .two img{
+float:left;
+border-radius: 100px;
+margin-bottom: 20px;
+margin-right: 6px;
+}
+
+.one .field field-name-body.field-type-text-with-summary, .two .field field-name-body.field-type-text-with-summary{
+font-size:11px;
+}
+
+.one .pane-title, .two .pane-title{
+font-size:15px;
+font-weight:bold;
+text-align: center;
+}
+
+.one .pane-title{
+margin-left: 15%;
+}
+
+.field.field-name-field-prof{
+font-size: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+text-align: center;
+}
+
+.two .field.field-name-field-prof{
+margin-right: 45px;
+}
+
+.col-sm-12{
+    width: 101%;
+}
+
+.row{
+overflow: hidden;
+}
+
+.confirmation p, #edit-cancel{
+display:none;
+}
+
+@media only screen and (max-width: 768px) {
+
+.panel-2col-bricks .panel-col-last{
+
+width: 100% !important;
+padding-left: 5%;
+
+}
+
+.panel-2col-bricks .panel-col-first{
+
+width: 100% !important;
+padding-left: 0;
+}
+
+.panel-panel.panel-col-first .inside{
+margin: 0 auto;
+    display: block;
+    position: relative;
+    width: 30%;
+}
+
+.one{
+    float: none;
+margin: 17px;
+}
+
+.one img, .two img{
+float:left;
+border-radius: 100px;
+margin-right: 50px;
+margin-left: 0;
+}
+
+.panel-panel.panel-col-middle{
+margin-bottom: -40px;
+}
+
+.one{
+width: 100%;
+}
+
+.one .pane-title, .two .pane-title{
+text-align:left;
+margin-left: 0;
+}
+
+.field.field-name-field-prof{
+text-align:left;
+margin-right: 0;
+}
+
+}
